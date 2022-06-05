@@ -48,8 +48,6 @@ body {
   margin-bottom: 15px;
 }
 
-
-
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
@@ -176,8 +174,6 @@ body {
 
 .experiences__company-header-name {
   color: var(--primary-text-color);
-  text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -227,32 +223,51 @@ body {
   color: var(--secondary-text-color);
 }
 
+.timeline__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.timeline__list {
+  font-size: 20px;
+}
+
+.timeline__item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.timeline__item::before {
+  content: "⇒ ";
+  color: var(--text-decoration-color);
+}
 
 @media screen and (max-width: 998px) {
-    .contact_info_container {
-      justify-content: space-around;
-    }
-    .skills__icon{
-        width: 30px;
-        height: 30px;
-    }
+  .contact_info_container {
+    justify-content: space-around;
   }
-  
-  @media screen and (max-width: 576px) {
-    .main-info,
-    .contact_info_container {
-      flex-direction: column;
-    }
-  
-    .contact_info_container {
-      align-items: center;
-    }
-  
-    .contact-info__block:not(:last-child) {
-      margin-bottom: 20px;
-    }
-  
-    .experiences {
-      margin-right: 0;
-    }
+  .skills__icon {
+    width: 30px;
+    height: 30px;
   }
+}
+
+@media screen and (max-width: 576px) {
+  .main-info,
+  .contact_info_container {
+    flex-direction: column;
+  }
+
+  .contact_info_container {
+    align-items: center;
+  }
+
+  .contact-info__block:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .experiences {
+    margin-right: 0;
+  }
+}
