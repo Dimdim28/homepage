@@ -3,10 +3,256 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <div class="back">
+      <div class="back__video">
+        <video src="./assets/back.mp4" type="video/mp4"  autoplay muted loop></video>
+      </div>
+      <main>
+        <div class="resume">
+          <div class="container">
+            <div class="resume__block">
+              <div class="intro">
+                <div class="intro__icon-wrapper">
+                  <svg
+                    class="intro__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="intro_text">
+                  Hello. I am a student of KPI FICT. I am 18. I love programming
+                  and am studying software engineering. I have a dream to become a
+                  full stack developer.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="resume__block">
+              <h1 class="contact-info__header">Dima</h1>
+              <h3 class="contact-info__sub-header">
+                Trainee JavaScript developer
+              </h3>
+  
+              <div class="contact_info_container fh">
+                <div class="contact-info__block contact-info__block--center">
+                  <img
+                    class="contact-info__avatar"
+                    src="assets/avatar.png"
+                    alt="Avatar"
+                  />
+                </div>
+  
+                <div class="contact-info__block">
+                  <a href="" rel="author" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      <svg
+                        class="contact-info__item-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                      >
+                        <path
+                          d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span>Kyiv, Ukraine</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="resume__block">
+              <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <div class="skills__icons">
+                  <div
+                    class="skills__icon"
+                    style="background-image: url(./assets/html5-brands.svg)"
+                  ></div>
+                  <div
+                    class="skills__icon"
+                    style="background-image: url(./assets/css3-brands.svg)"
+                  ></div>
+                  <div
+                    class="skills__icon"
+                    style="background-image: url(./assets/js-brands.svg)"
+                  ></div>
+                  <div
+                    class="skills__icon"
+                    style="background-image: url(./assets/sass-brands.svg)"
+                  ></div>
+                  <div
+                    class="skills__icon"
+                    style="background-image: url(./assets/bootstrap-brands.svg)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="resume__block">
+              <div class="main-info fh">
+                <div class="experiences">
+                  <h3 class="experiences__header">Experience</h3>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <h3 class="experiences__company-header-name">
+                        Just learning
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                        >2025</span
+                      >
+                      <h3
+                        class="additional-info__education-university-speciality"
+                      >
+                        Software engineering
+                      </h3>
+                      <p class="additional-info__education-university-name">
+                        KPI FICT
+                      </p>
+                    </div>
+                  </div>
+  
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">
+                      Ukrainian (understand)
+                    </p>
+                    <p class="additional-info__languages-item">
+                      English ( understand)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="resume__block">
+              <div class="timeline">
+                <h3 class="timeline__header">Roadmap</h3>
+                <ul class="timeline__list">
+                  <li class="timeline__item">2011 - went to school</li>
+                  <li class="timeline__item">
+                    2015-2016 - 3rd place at the regional olympiad in mathematics
+                  </li>
+                  <li class="timeline__item">
+                    2016-2017 - 1st place at the regional olympiad in physics and
+                    3rd in math
+                  </li>
+                  <li class="timeline__item">
+                    2017-2018 - 2nd places at the regional olympiads in physics
+                    and mathematics
+                  </li>
+                  <li class="timeline__item">
+                    2018-2019 - 2nd place at the city olympiad in physics and 1st
+                    at the regional olympiad in mathematics
+                  </li>
+                  <li class="timeline__item">
+                    2019 - moved to the technical lyceum of the city of Kyiv
+                  </li>
+                  <li class="timeline__item">
+                    2019-2020 - 2nd place at the city olympiads in physics and 3rd
+                    at the regional olympiad in mathematics
+                  </li>
+                  <li class="timeline__item">
+                    2020-2021 - 3rd places at the regional olympiads in
+                    mathematics and physics
+                  </li>
+                  <li class="timeline__item">
+                    2021 - graduated from the technical lyceum with a diploma for
+                    special achievements in the study of physics
+                  </li>
+                  <li class="timeline__item">
+                    2021 - passed the external independent assessment with grades:
+                    <br />
+                    mathematics - 197, <br />
+                    physics - 198, <br />
+                    ukrainian - 191
+                  </li>
+                  <li class="timeline__item">
+                    2021 - entered the Kyiv Polytechnic Institute at the Faculty
+                    of Informatics and Computer Engineering
+                  </li>
+                  <li class="timeline__item">
+                    2021 - completed the first semester with a rating score of
+                    98.43/100 and third place in the success rating in the
+                    specialty
+                  </li>
+                  <li class="timeline__item">
+                    2022 - Signed up for courses from Binary Studio Academy
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="resume__block">
+              <div class="contacts">
+                <h3 class="contacts__header">Contacts</h3>
+                <div class="contacts__icons">
+                  <a
+                    target="_blank"
+                    href="https://github.com/Dimdim28"
+                    class="contacts__icon"
+                    style="background-image: url(./assets/github-brands.svg)"
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://discordapp.com/users/685188807305330708/"
+                    class="contacts__icon"
+                    style="background-image: url(./assets/discord-brands.svg)"
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://t.me/D_im0N"
+                    class="contacts__icon"
+                    style="background-image: url(./assets/telegram-brands.svg)"
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/provodnik_dimitriy"
+                    class="contacts__icon"
+                    style="background-image: url(./assets/instagram-brands.svg)"
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="mailto:wwwdimanes1@gmail.com"
+                    class="contacts__icon"
+                    style="background-image: url(./assets/envelope-solid.svg)"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
   </body>
 </html>
